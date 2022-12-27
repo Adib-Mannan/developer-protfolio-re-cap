@@ -1,0 +1,69 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+#orange-color{
+    color: orange;
+}
+.flex-box{
+    display: flex;
+    
+    
+}
+.width-box{
+    width: 50%;
+    margin: 50px;
+}
+.width-box img{
+    width: 100%;
+   
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+    padding:7px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray ;
+    padding: 15px;
+    border-radius: 10px;
+}
+.web-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(purple,blue);
+    border-image-slice: 1;
+}
+.baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(green,pink);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
